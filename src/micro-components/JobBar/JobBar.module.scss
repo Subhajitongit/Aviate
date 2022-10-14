@@ -1,0 +1,74 @@
+.jobbar {
+    background-color: white;
+    height: 60px;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+  
+    display: flex;
+    justify-content: space-around;
+  
+    .tag {
+      border: 1px green solid;
+      padding: 5px 15px;
+      border-radius: 15px;
+      color: green;
+  
+      h5 {
+        margin: 0;
+        font-weight: 600;
+      }
+    }
+  
+    .tagStop {
+      border: 1px red solid;
+      padding: 5px 15px;
+      border-radius: 15px;
+      color: red;
+  
+      h5 {
+        margin: 0;
+        font-weight: 600;
+      }
+    }
+  
+    .appGol {
+      display: flex;
+      align-items: center;
+      .gol {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: red;
+        display: inline-block;
+        position: relative;
+        margin-left: -20px;
+  
+        &:nth-child(3) {
+          background-color: green;
+        }
+        &:nth-child(2) {
+          background-color: orange;
+        }
+        &:nth-child(4) {
+          background-color: blue;
+        }
+      }
+    }
+  
+    .actions {
+      display: flex;
+      gap: 35px;
+  
+      .btn {
+        cursor: pointer;
+        &:hover {
+          color: darkcyan;
+        }
+      }
+    }
+  }
+  

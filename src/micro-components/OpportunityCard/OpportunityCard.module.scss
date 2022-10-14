@@ -1,0 +1,94 @@
+.oppcard {
+  min-width: 90%;
+  width: fit-content;
+  height: fit-content;
+  min-height: 320px;
+  background-color: white;
+  border-radius: 15px;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+
+  .top {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    .gola {
+      background-color: red;
+      height: 70px;
+      width: 70px;
+      border-radius: 50%;
+      margin-right: 25px;
+    }
+
+    .title {
+      h3 {
+        margin: 0;
+        font-weight: 500;
+      }
+      h5 {
+        margin: 0;
+        font-weight: 400;
+        color: gray;
+      }
+    }
+  }
+
+  .tags {
+    display: flex;
+    .tag {
+      border: 1px transparent solid;
+      width: fit-content;
+      padding: 5px 15px;
+      border-radius: 15px;
+
+      background-color: rgba(179, 179, 179, 0.281);
+      margin-left: 25px;
+    }
+  }
+
+  .details {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+
+    h4 {
+      font-weight: 200;
+      margin-bottom: 5px;
+    }
+    h3 {
+      margin: 0;
+      font-weight: 500;
+    }
+  }
+
+  .cta {
+    display: flex;
+    margin-right: 50px;
+    margin-top: 35px;
+    justify-content: flex-end;
+
+    .view {
+      margin-right: 30px;
+      padding: 10px;
+      border: 1px solid rgb(46, 106, 236);
+      border-radius: 10px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba(197, 197, 197, 0.24);
+      }
+    }
+    .apply {
+      cursor: pointer;
+      border: 1px solid transparent;
+      background-color: rgb(46, 106, 236);
+      padding: 10px;
+      color: white;
+      border-radius: 10px;
+
+      &:hover {
+        background-color: rgb(39, 88, 194);
+      }
+    }
+  }
+}

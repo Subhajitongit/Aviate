@@ -1,0 +1,54 @@
+.background {
+    background-color: white;
+    padding: 15px;
+    width: 12%;
+    border-radius: 15px;
+    align-items: center;
+    height: fit-content;
+  
+    .imgbg1 {
+      padding: 25px;
+      background-color: dodgerblue;
+      border-radius: 15px;
+      color: white;
+      height: 100px;
+      &:hover {
+        background-color: darkorange;
+        cursor: pointer;
+      }
+  
+      .icon {
+        font-size: 34px;
+      }
+    }
+  
+    .col {
+      h2 {
+        margin-top: 25px;
+        margin-bottom: 5px;
+        font-weight: 100;
+      }
+      h4 {
+        margin: 0;
+        font-weight: bold;
+      }
+    }
+  
+    .checkbtn {
+      margin-top: 25px;
+      padding: 10px;
+      display:flex;
+      border: 2px blue solid;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+  
+      &:hover {
+          background-color: skyblue;
+          border: 2px transparent solid;
+          color: white;
+      }
+    }
+  }
+  

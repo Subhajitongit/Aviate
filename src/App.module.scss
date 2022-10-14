@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    background-color: rgb(46, 106, 236);
+    overflow-y: hidden;
+    height: 100vh;
+    width: 100%;
+  
+    .leftBar {
+      background-color: rgb(73, 126, 240);
+      height: 100vh;
+      width: 350px;
+      position: fixed;
+  
+      .head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo {
+          font-size: xx-large;
+          color: white;
+        }
+  
+        .option {
+          color: white;
+        }
+  
+        .heading {
+          color: white;
+          margin-left: 10px;
+          font-weight: 100;
+        }
+      }
+  
+      .tab {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 32%;
+        cursor: pointer;
+  
+        .option {
+          color: white;
+        }
+  
+        .heading {
+          color: white;
+          margin-left: 10px;
+          font-weight: 100;
+        }
+      }
+  
+      .selected {
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        justify-content: flex-start;
+        padding-left: 32%;
+        background-color: rgb(46, 106, 236);
+  
+        .option {
+          color: white;
+        }
+  
+        .heading {
+          color: white;
+          margin-left: 10px;
+          font-weight: 500;
+        }
+      }
+  
+      .spacing {
+        height: 30px;
+        width: 100px;
+        //   background-color: red;
+      }
+    }
+  }
+  
