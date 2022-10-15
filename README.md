@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# Aviate
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## _Simple job hunting website that will blow your mind!_
 
-## Available Scripts
+<img width="959" alt="Screenshot 2022-10-06 13-14-32" src="https://user-images.githubusercontent.com/56462749/195977713-0474e1fa-9cf1-4336-b12e-1d3ec160745d.png">
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+Aviate Application created using React.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### How to Contribute to this repository
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Fork the repository (Click the Fork button in the top right of this page,
+   click your Profile Image)
+2. Clone the forked repository to your local machine.
 
-### `npm test`
+```markdown
+git clone https://github.com/your-username/aviate.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. change the present working directory
 
-### `npm run build`
+```markdown
+cd NumberFinder
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+5. Make your changes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```markdown
+git add . git commit -m "Your commit Message" git push origin branch-name
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Make a pull request.
+- Star the repository.
 
-### `npm run eject`
+### NOTE
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Make Sure you commit your changes in a new branch.
+- Make Sure you Give proper name to your files describing the addition.
+- Also Make Sure you comment your code wherever necessary.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Job posting and searching.
+- clean UI with smart filters.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## REPO STATUS
 
-## Learn More
+![GitHub PR Open](https://img.shields.io/github/issues-pr/Subhajitongit/aviate?style=for-the-badge&color=aqua)
+![GitHub PR closed](https://img.shields.io/github/issues-pr-closed-raw/Subhajitongit/aviate?style=for-the-badge&color=blue)
+![GitHub language count](https://img.shields.io/github/languages/count/Subhajitongit/aviate?style=for-the-badge&color=brightgreen)
+<br><br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Our Contributors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<a href="https://github.com/Subhajitongit/aviate/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Subhajitongit/aviate" />
+</a>
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+<div align="center">
+Show some ❤️ by starring this awesome repository!
+</div>
